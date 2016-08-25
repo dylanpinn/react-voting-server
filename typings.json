@@ -1,7 +1,8 @@
 {
-  "globalDependencies": {
-    "chai": "registry:dt/chai#3.4.0+20160601211834",
-    "immutable": "registry:dt/immutable#3.8.1+20160608070634",
-    "react": "registry:dt/react#0.14.0+20160817201227"
+  "devDependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160723033700"
+  },
+  "dependencies": {
+    "react": "registry:npm/react#15.0.1+20160601175240"
   }
 }
