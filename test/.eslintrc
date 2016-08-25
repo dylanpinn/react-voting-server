@@ -12,6 +12,9 @@
       "optionalDependencies": false,
       "peerDependencies": false
     }],
+    "new-cap": [2, {
+      "capIsNewExceptions": ["Map", "Set", "List"]
+    }],
     "chai-expect/missing-assertion": 2,
     "chai-expect/terminating-properties": 1
   }
