@@ -5,7 +5,4 @@ node_js:
 script:
   - "npm test"
 after_script:
-  - "CODECLIMATE_REPO_TOKEN=f5ea32b3f9ce5325ee41b135b3f8ab6497e259701144ea92c9ddb663a28059a4 ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info"
-addons:
-  code_climate:
-    repo_token: cd8dc527c7a6b5c59360c19cfe0649b673455d19c5f48d0ffdf9bb8376640f68
+  - "./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info"
